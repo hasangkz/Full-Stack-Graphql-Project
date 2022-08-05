@@ -1,0 +1,35 @@
+.shift {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 12px;
+}
+.shiftTitle {
+  display: none;
+}
+.shiftContainer:hover .shiftTitle {
+  display: inline-block;
+}
+.shift h3 {
+  font-weight: lighter;
+}
+.shift span {
+  font-weight: 600;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.link {
+  text-decoration: none;
+  background-color: rgb(25, 28, 26);
+  border-radius: 32px;
+  color: white;
+  padding: 8px;
+}

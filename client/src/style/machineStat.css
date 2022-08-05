@@ -1,0 +1,57 @@
+.machineStatTitle {
+  display: none;
+}
+.machineStatContainer:hover .machineStatTitle {
+  display: inline-block;
+}
+.machineStat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 32px;
+}
+.stat_working {
+  background-color: greenyellow;
+  color: white;
+}
+
+.stat_working::after {
+  content: 'Çalışıyor';
+  border: 1px solid black;
+}
+
+.stat_notworking {
+  background-color: red;
+  color: white;
+}
+
+.stat_notworking::after {
+  content: 'Çalışmıyor';
+  border: 1px solid black;
+}
+/* ortak elements */
+h3 {
+  padding: 6px;
+}
+.machineStatContent {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 20px;
+}
+/* elements */
+.machineStat div:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
+  transition: all 0.7s ease;
+}
+.machineStat_idstat {
+  padding: 20px;
+}
+.machineStat h3 {
+  font-weight: lighter;
+}
+.machineStat span {
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.goodContainer {
+  border-bottom: solid 1px black;
+}
+.goodTitle {
+  display: none;
+}
+.goodContainer:hover .goodTitle {
+  display: inline-block;
+}
+
+.good {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 24px;
+}
+.good h3 {
+  font-weight: lighter;
+}
+.good span {
+  font-weight: 600;
+}
+
+.good div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 8px;
+}

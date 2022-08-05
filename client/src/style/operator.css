@@ -1,0 +1,24 @@
+.operatorContainer {
+  border-bottom: solid 1px black;
+}
+.operatorTitle {
+  display: none;
+}
+.operatorContainer:hover .operatorTitle {
+  display: inline-block;
+}
+.operator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.operator h3 {
+  font-weight: lighter;
+}
+.operator span {
+  font-weight: 600;
+}

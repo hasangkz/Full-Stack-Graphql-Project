@@ -1,0 +1,17 @@
+/* container */
+.cardContainer {
+  border-radius: 16px;
+  margin: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* status */
+.working {
+  background-color: rgb(112, 195, 112);
+}
+.notworking {
+  background-color: red;
+}
+#status {
+  display: inline;
+}

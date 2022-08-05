@@ -1,0 +1,32 @@
+.prodPlan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 16px;
+}
+.iyi {
+  background-color: greenyellow;
+  border-radius: 24px;
+  padding: 10px;
+}
+.kötü {
+  background-color: rgb(240, 50, 50);
+  border-radius: 24px;
+  padding: 10px;
+}
+.prodPlan div {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(147, 233, 205);
+}
+
+.prodPlan h3 {
+  font-weight: lighter;
+}
+.prodPlan span {
+  font-weight: 600;
+}
